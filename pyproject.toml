@@ -1,0 +1,9 @@
+[project]
+name = "lambda"
+version = "0.1.0"
+description = "Lamabda function example using AWS Lambda Powertools"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aws-lambda-powertools[all]>=3.17.0",
+]
